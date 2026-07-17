@@ -1,0 +1,141 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header{
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav{
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(5, 0, 0, 0.596);
+}
+
+nav ul li a:hover{
+    color: rgb(177, 28, 223);
+}
+
+/* Paragraphs */
+p{
+    line-height: 1.6;
+}
+
+/* Main */
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sections */
+section{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* About Section */
+#about{
+    background-color: #eef7ff;
+    border-left: 6px solid #2196f3;
+    padding: 20px;
+}
+
+/* Headings */
+h2{
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+/* Table */
+.data-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td{
+    padding: 12px;
+}
+
+.data-table th{
+    background-color: #1e293b;
+    color: white;
+}
+
+.data-table td{
+    border-bottom: 1px solid #ddd;
+}
+
+/* Form */
+.form-container{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+input[type="text"],
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]:focus,
+select:focus{
+    outline: 2px solid #2196f3;
+}
+
+/* Submit Button */
+#submit-btn{
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+#submit-btn:hover{
+    background-color: #334155;
+}
+
+/* Footer */
+footer{
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
