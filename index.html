@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel ="stylesheet"href = "style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Lab Assignment</title>
-    <link rel ="stylesheet"href = "style.css">
+    <link rel ="stylesheet" href = "style.css">
     </head>
 <body>
 
@@ -18,8 +19,9 @@
             <li><a href="#about">About</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#register">Register</a></li>
+            <li><button id="themeToggle">Toggle Theme</button></li>
         </ul>
-    </nav>
+    </nav
 
     <main>
         
@@ -65,7 +67,7 @@
                 <h2>Student Registration</h2>
                 <p>Fill out the form below to register for the advanced styling workshop.</p>
                 
-                <form action="#" method="post">
+                <form action="#" method="post" id="studentRegistration">
                     <div class="form-group">
                         <label for="student-name">Full Name:</label>
                         <input type="text" id="student-name" name="student-name" placeholder="Enter your name" required>
@@ -75,7 +77,7 @@
                         <label for="batch">Select Batch:</label>
                         <select id="batch" name="batch">
                             <option value="bsc-cs">B.Sc. Computer Science</option>
-                            <option value="bca">BCA</option>
+                            <option value="msc">Msc</option>
                             <option value="other">Other</option>
                         </select>
                     </div>
@@ -90,6 +92,13 @@
     <footer>
         <p>&copy; 2026 TechAcademy | Designed for HTML & CSS Practical Lab</p>
     </footer>
+<script>
+    const themeButton = document.getElementById("themeToggle");
 
+    themeButton.addEventListener("click", function() {
+    document.body.classList.toggle("dark-theme");
+    });
+</script>
+     <script src="script.js"></script>
 </body>
 </html>
