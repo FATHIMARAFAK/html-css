@@ -1,3 +1,3 @@
 function sayHello() {
-    akert("welcome to JS with external file!")
+    alert("welcome to JS with external file!")
 }
